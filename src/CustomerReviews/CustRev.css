@@ -1,0 +1,168 @@
+.custRev {
+    padding-top: 72px;
+    padding-right: 100px;
+    padding-bottom: 72px;
+    padding-left: 100px;
+    background-color: #3c006b;
+}
+
+.custRev h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #dec2eb;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reviewBlockFull {
+    display: flex;
+    padding-top: 56px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    
+}
+
+.custReviewBlock {
+    align-self: auto;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+
+.reviewList {
+    display: grid;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    display: grid;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    justify-content: center;
+    justify-items: center;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    align-content: space-between;
+    grid-auto-columns: 1fr;
+    column-gap: 56px;
+    row-gap: 16px;
+    grid-template-columns: minmax(632px,1fr) 632px;
+    grid-template-rows: auto auto auto;
+
+}
+
+.listItem {
+    opacity: 1;
+     /* transform: translate3d(0px, -10px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;  */
+    width: auto;
+    margin-bottom: 56px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    border-top-color: rgb(0, 0, 0);
+    border-top-style: initial;
+    border-top-width: 1px;
+    border-right-color: rgb(0, 0, 0);
+    border-right-style: initial;
+    border-right-width: 1px;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-style: initial;
+    border-bottom-width: 1px;
+    border-left-color: rgb(0, 0, 0);
+    border-left-style: initial;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    background-position-x: 95%;
+    background-position-y: 85%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    outline-color: rgb(255, 255, 255);
+    outline-style: initial;
+    outline-width: 3px;
+    outline-offset: 0px;
+}
+
+blockquote {
+    
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    padding: 10px 20px;
+    border-left: 5px solid #e2e2e2;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.blockQuoteClass {
+    margin-bottom: 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 60px;
+    padding-left: 0px;
+    border-left-width: 0;
+    color: #ffccd9;
+    font-size: 32px;
+    line-height: 150%;
+    font-weight: 600;
+}
+
+#listItem1 {
+    background-image: url("https://uploads-ssl.webflow.com/612ce9a327af1203dd3b50ef/62326472d1164a73d88c3096_quote%20block_red.svg");
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+    
+}
+
+#listItem2 {
+    background-image: url("https://uploads-ssl.webflow.com/612ce9a327af1203dd3b50ef/62326c9af08f34bf63a6ae85_quote%20block_purple.svg");
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+}
+#listItem3 {
+    background-image: url("https://uploads-ssl.webflow.com/612ce9a327af1203dd3b50ef/62326c9af08f34bf63a6ae85_quote%20block_purple.svg");
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+}
+#listItem4 {
+    background-image: url("https://uploads-ssl.webflow.com/612ce9a327af1203dd3b50ef/62326472d1164a73d88c3096_quote%20block_red.svg");
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+}
+#listItem5 {
+    background-image: url("https://uploads-ssl.webflow.com/612ce9a327af1203dd3b50ef/62326472d1164a73d88c3096_quote%20block_red.svg");
+    grid-row-start: span 1;
+    grid-row-end: span 1;
+    grid-column-start: span 1;
+    grid-column-end: span 1;
+}
+.custName{
+    align-self: flex-start;
+    color: #ffccd9;
+    font-size: 32px;
+    line-height: 150%;
+}

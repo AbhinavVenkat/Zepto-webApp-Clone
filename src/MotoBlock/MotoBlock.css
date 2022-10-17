@@ -1,0 +1,160 @@
+.motoBlockMain {
+     display: flex; 
+    padding-top: 130px;
+    padding-left: 100px;
+    /* background-image: url("https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/6153b832d6a443c082ea0751_clouds.svg"); */
+    /* justify-content: space-around; */
+}
+
+
+.wordBlock {
+    padding-right: 80px;
+}
+.div-block-72 {
+    position: relative;
+    overflow: visible;
+    width: 520px;
+    height: 125px;
+    margin-bottom: 0;
+}
+
+.displayListClass1{
+    position: absolute;
+    display: block;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: Poppins,sans-serif;
+    color: #fff;
+    font-size: 96px;
+    line-height: 130%;
+    font-weight: 600;
+}
+
+.displayListClass1.restItems{
+    position: absolute;
+    color: #ff3269;
+    /* background-image: linear-gradient(171deg,#ff3269,#ff794d); */
+    display: block;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: Poppins,sans-serif;
+    /* color: #fff; */
+    font-size: 96px;
+    line-height: 130%;
+    font-weight: 600;
+}
+
+.displayListClass2{
+    width: 620px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-bottom: 0;
+    font-family: Poppins,sans-serif;
+    color: #fff;
+    font-size: 96px;
+    line-height: 130%;
+    font-weight: 600;
+}
+
+.div-block-73 {
+    width: 620px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-bottom: 0;
+    font-family: Poppins,sans-serif;
+    color: #fff;
+    font-size: 96px;
+    line-height: 130%;
+    font-weight: 600;
+}
+
+.imageBlockClass {
+    /* width: 100%; */
+    margin-left: 0;
+    padding-left: 0;
+    /* background-image: url("https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/6153ba35e289eeae0c121630_groceries.svg"); */
+    background-position-x:  0px;
+    background-position-y: 50%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    will-change: "transform";
+    transform-style: preserve-3d;
+    transform: skew(0deg, 0deg) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    background-image: url("https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/60d657a98d085922b245081b_homepage-bg-cloud.svg");
+}
+
+.div-block-13 {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    background-image: url("https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/60d657a98d085922b245081b_homepage-bg-cloud.svg");
+    background-position-x: 0px;
+    background-position-y: 50%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.div-block-4 {
+    display: block;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 300px;
+    padding-left: 0;
+    background-repeat: no-repeat;
+}
+.div-block-4.groceries {
+    padding-bottom: 250px;
+    background-image: url("https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/6153ba35e289eeae0c121630_groceries.svg");
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: auto;
+}
+
+.playstoreIcons {
+    display: flex;
+    -webkit-box-pack: start;
+}
+
+.playstoreBadge {
+    width: 220px;
+    height: 65px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: auto 65px;
+    background-repeat: no-repeat;
+    background-image: url("https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/60dea2276223f66d84a60828_google-app-store-badge.svg");
+    max-width: 100%;
+    display: inline-block;
+}
+
+.appleBadge {
+    width: 195px;
+    height: 65px;
+    margin-right: 40px;
+    padding-right: 0;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: auto 65px;
+    background-repeat: no-repeat;
+    background-image: url("https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/60dea10ffcfa38b33ff36baa_apple-app-store-badge.svg");
+}
+
+.starSupClass {
+    font-weight: 200;
+}
+
+.starSpanClass{
+    font-size: 60px;
+}
+
+sup {
+    top : -0.5em;
+    font-size: 75%;
+    position: relative;
+    vertical-align: baseline;
+    line-height: 0;
+}

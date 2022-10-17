@@ -1,0 +1,112 @@
+.outterWorkingDiv{
+    padding-top: 72px;
+    padding-right: 100px;
+    padding-bottom: 72px;
+    padding-left: 100px;
+    background-color: #3c006b;
+}
+
+.workingBlock{
+    padding-top: 56px;
+    padding-bottom: 56px;
+    border-top-color: rgb(255, 58, 103);
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-right-color: rgb(255, 58, 103);
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-bottom-color: rgb(255, 58, 103);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-left-color: rgb(255, 58, 103);
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    text-align: center;
+}
+
+.workingHeader {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #dec2eb;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.workingFlowBlockItems {
+    width: 400px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.workingFlowBlock{
+    display: flex;
+    padding-top: 32px
+}
+
+.placeOrderImage {
+    background-image: url("https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/60deb5145aae391e56a22334_how-1.svg");
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 184px;
+    height: 137px;
+    
+}
+
+.blinkImage {
+    background-image: url("https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/60deb5145aae391e56a22334_how-1.svg");
+    display: inline-block;
+    width: 184px;
+    height: 137px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+}
+
+.enjoyImage {
+    background-image: url("https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/6153bc5d94c2adf748413b26_groceries_bag.svg");
+    width: 150px;
+    margin-left: 30px;
+    padding-left: 0;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    display: inline-block;
+    width: 184px;
+    height: 137px;
+}
+
+.workingFlowMiniHeader{
+    margin-bottom: 20px;
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 20px;
+}
+
+.workingFlowPara {
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

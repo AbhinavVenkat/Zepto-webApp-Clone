@@ -1,0 +1,30 @@
+.div-block-28.clouds {
+    background-image: url("https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/6153b832d6a443c082ea0751_clouds.svg");
+    background-position-x: 0px, 0px;
+    background-position-y: 0px, 0px;
+}
+/*,linear-gradient(180deg,rgba(28,3,48,.27),rgba(72,8,92,0));*/
+.div-block-28 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+
+.div-block-29 {
+    width: 150px;
+    height: 150px;
+    margin-top: 200px;
+    margin-right: 1000px;
+    padding-top: 0;    
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-image: url("https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/60e91663c5e28a0084a83ea6_shooting-star.svg");
+}

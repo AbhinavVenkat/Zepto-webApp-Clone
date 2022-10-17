@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from "./Navbar/ZeptoNavBar";
+import MotoBlock from "./MotoBlock/MotoBlock";
+import CloudBg from "./CloudBackground/CloudBg";
+import DeliveryScrolls from "./DeliveryScrolls/DeliveryScrolls";
+import WorkingBlock from "./WorkBlock/WorkingBlock";
+import CustomerRev from "./CustomerReviews/CustomerRev";
+import FooterSection from "./FooterSection/FooterSection";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        
+        <NavBar/>
+        <MotoBlock/>
+        <CloudBg/>
+        <DeliveryScrolls/>
+        <WorkingBlock/>
+        <CustomerRev/>
+        <FooterSection/>
     </div>
   );
 }

@@ -1,0 +1,119 @@
+.deliveryScrollMainDiv {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-color: #290248;
+}
+
+.section_heading.padding-bottom-20 {
+    padding-bottom: 40px;
+}
+
+/* #test{
+    transform: translate3d(var(--tranX), 0, 0);
+  --tranX: 0;
+} */
+
+.section_heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #dec2eb;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cmscity_marquee-containter {
+    overflow: hidden;
+    width: 100%;
+}
+
+.cmscity_marquee-inner {
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    transform: scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+    will-change: transform;
+}
+
+.div-block-87 {
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    align-items: center;
+    align-content: flex-end;
+    align-self: auto;
+
+}
+
+.collection-list-wrapper-3 {
+    align-self: auto;
+}
+
+.collection-list-4 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.collection-item-6 {
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.link-block-4 {
+    display: flex;
+    text-decoration: none;
+}
+
+.cmscity_city-name {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 42px;
+    line-height: 160px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.cityImage {
+    border : 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.missingCity {
+    font-family: Poppins,sans-serif;
+    padding-top: 20px;
+    color: #dec2eb;
+    font-size: 26px;
+    font-weight: 500;
+    text-align : center;
+}
+
+.missingCityLink{
+    color: #dec2eb;
+    font-family: Poppins,sans-serif;
+}
