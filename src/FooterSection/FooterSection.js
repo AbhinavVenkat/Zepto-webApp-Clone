@@ -5,7 +5,7 @@ function FooterSection() {
     return (
         <div className="footerSec">
             <div class="div-block-27">
-                <img src="https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/60d63a5e002c46ace40429f6_logo.svg" loading="lazy" width="120" alt="Zepto Logo" />
+                <img className="zeptoFooterImage" src="https://uploads-ssl.webflow.com/60be6e42ecea08f815b762c3/60d63a5e002c46ace40429f6_logo.svg" loading="lazy" width="120" alt="Zepto Logo" />
 
             </div>
                 <div className="footerDisplay">
